@@ -1,0 +1,156 @@
+
+#header-nav{
+  font-family: 'Comic Neue', cursive;
+	background-color: #89CFF0;
+	border-radius: 0;
+	border: 0;
+  height: 120px;
+}
+#logo-img {
+  background: url('../img/icon2.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 0;
+
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+body{
+  margin: 0;
+  color: #131415;
+  font-family: 'Comic Neue', cursive;
+}
+
+.container{
+   font-family: 'Comic Neue', cursive;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+.container-fluid{
+  font-family: 'Comic Neue', cursive;
+  font-weight: 800;
+}
+.text{
+  color: #131415 !important;
+}
+.clear{
+    width : 90px;
+    height: 90px;
+    position: absolute;
+    right:20px;
+    top: 20px;
+  }
+
+  h1{
+    font-size: 45px;
+     margin: 0;
+    text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+  }
+  .clear i:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(35deg);
+}
+.content{
+  position: absolute;
+  right: 0;
+  width:450px;
+  height: 600px;
+  background-color: #FFF;
+   overflow: auto;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+    }
+.item{
+    width:380px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+.fa-check-circle{
+    color:#6eb200;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:50px;
+    top:5px;
+    background-color: #FFF;
+    max-width:285px;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+.item i.de{
+    position: absolute;
+    font-size: 25px;
+    right:15px;
+    top:10px;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
+.add-to-do{
+  display: block;
+    position: relative;
+    top: 100px;
+    right: -360px;
+    width: 360px;
+    height:40px;
+    background-color: #FFF;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.add-to-do i{ 
+    position: absolute;
+     left: 30px;
+    font-size: 40px;
+    color: #4162f6;
+}
+
+.add-to-do input{
+    position: absolute;
+    left: 90px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+}
+.add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #4162f6;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
+#date{
+  font-size: 30px;
+}
